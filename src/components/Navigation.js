@@ -5,16 +5,22 @@ class Navigation extends Component{
     render() {
         return (
             <>
-                <Navbar color="info" dark expand="lg">
+                <Navbar color="info" dark expand="lg" className="flex justify-content-between">
                     <NavbarBrand href="/">
                         <h2>My Page</h2>
                     </NavbarBrand>
-                    <Nav className="mr-auto" navbar>
+                    <Nav className="mr-auto" navbar pills>
                         <NavItem>
-                            <NavLink href="/components/">Components</NavLink>
+                            <NavLink href="/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                            <NavLink href="/blog/">Blog</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/projects/">Projects</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="/contact/">Contact</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
