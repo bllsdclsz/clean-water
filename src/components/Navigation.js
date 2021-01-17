@@ -5,7 +5,7 @@ class Navigation extends Component{
     render() {
         return (
             <>
-                <Navbar color="info" dark expand="lg" className="flex justify-content-between">
+                <Navbar color="success" dark expand="sm" className="flex justify-content-between">
                     <NavbarBrand href="/">
                         <h2>My Page</h2>
                     </NavbarBrand>
@@ -14,7 +14,7 @@ class Navigation extends Component{
                             <NavLink href="/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/blog/">Blog</NavLink>
+                            <NavLink href="/aboutus/">About Us</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/projects/">Projects</NavLink>
