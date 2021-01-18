@@ -2,13 +2,14 @@ import React, {Component} from "react";
 import { Container, Jumbotron, Media, Row, Col } from "reactstrap";
 import River from "./images/river.jpg";
 import Glacier from "./images/glacier.jpg";
+import Desert from "./images/desert.jpg";
 
 class Homepage extends Component{
     render() {
         return (
             <>
-              <div className="home-content-image">
-                
+              <div className="home-content-image d-flex justify-content-center">
+                <h1 className="text-white">eko-life</h1>
               </div>
                 <Container>
                   <Row className="mt-5 mb-5 col-8 offset-2">
@@ -47,7 +48,7 @@ class Homepage extends Component{
                     <Col>
                       <Media>
                         <Media left href="#">
-                          <Media object data-src="holder.js/64x64" alt="Generic placeholder image" />
+                          <Media object className="content-image rounded-circle" src={Desert} alt="Desert" />
                         </Media>
                         <Media body className="ml-5">
                           <Media heading>

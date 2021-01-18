@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import { Container } from "reactstrap";
-import Navigation from "./Navigation.js";
 
 class Contact extends Component{
     render() {

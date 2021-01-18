@@ -1,13 +1,14 @@
 import React, {Component} from "react";
-import {Nav, Navbar, NavItem, NavLink, NavbarBrand} from "reactstrap";
+import {Nav, Navbar, NavItem, NavLink, NavbarBrand, Media} from "reactstrap";
+import Logo from "./images/logo.png";
 
 class Navigation extends Component{
     render() {
         return (
             <>
-                <Navbar color="success" dark expand="sm" className="flex justify-content-between">
-                    <NavbarBrand href="/">
-                        <h2>My Page</h2>
+                <Navbar color="success" dark expand="sm" className="flex justify-content-between p-0">
+                    <NavbarBrand className="p-0 m-0" href="/">
+                        <Media className="p-0 m-0 app-logo" src={Logo} />
                     </NavbarBrand>
                     <Nav className="mr-auto" navbar pills>
                         <NavItem>
