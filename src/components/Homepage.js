@@ -1,6 +1,5 @@
 import React, {Component} from "react";
 import { Container, Jumbotron, Media, Row, Col } from "reactstrap";
-import Waterfall from "./images/waterfall.jpg";
 import River from "./images/river.jpg";
 import Glacier from "./images/glacier.jpg";
 

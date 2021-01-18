@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Switch } from 'react-router-dom';
 import Homepage from "./components/Homepage.js";
 import Aboutuspage from "./components/Aboutuspage.js";
 import Projectspage from "./components/Projectspage.js";
@@ -13,10 +13,10 @@ function App() {
     <HashRouter basename={process.env.PUBLIC_URL}>
       <Navigation />
       <Switch>
-      <Route path="/" exact component={Homepage}/>
-      <Route path="/aboutus/" component={Aboutuspage}/>
-      <Route path="/projects/" component={Projectspage}/>
-      <Route path="/contact/" component={Contactpage}/>
+      <Route path="./" exact component={Homepage}/>
+      <Route path="./aboutus/" exact component={Aboutuspage}/>
+      <Route path="./projects/" exact component={Projectspage}/>
+      <Route path="./contact/" exact component={Contactpage}/>
       </Switch>
       <Footer />
     </HashRouter>
