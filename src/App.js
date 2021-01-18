@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter, BrowserRouter as Router, HashRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Homepage from "./components/Homepage.js";
 import Aboutuspage from "./components/Aboutuspage.js";
 import Projectspage from "./components/Projectspage.js";
@@ -10,8 +10,7 @@ import "./components/images/waterfall.jpg";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navigation />
           <Switch>
           <Route path="/" exact component={Homepage}/>
@@ -21,7 +20,6 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-    </BrowserRouter>
   );
 }
 
