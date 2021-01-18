@@ -13,10 +13,10 @@ function App() {
     <HashRouter basename={process.env.PUBLIC_URL}>
       <Navigation />
       <Switch>
-      <Route path="./eko-life/#/" exact component={Homepage}/>
-      <Route path="./eko-life/#/aboutus/" exact component={Aboutuspage}/>
-      <Route path="./eko-life/#/projects/" exact component={Projectspage}/>
-      <Route path="./eko-life/#/contact/" exact component={Contactpage}/>
+      <Route path="/" exact component={Homepage}/>
+      <Route path="/aboutus/" exact component={Aboutuspage}/>
+      <Route path="/projects/" exact component={Projectspage}/>
+      <Route path="/contact/" exact component={Contactpage}/>
       </Switch>
       <Footer />
     </HashRouter>
