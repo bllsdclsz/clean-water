@@ -17,10 +17,10 @@ function App() {
         <Router history={history}>
         <Navigation />
           <Switch>
-          <Route path={process.env.PUBLIC_URL + "/"} exact component={Homepage}/>
-          <Route path={process.env.PUBLIC_URL + "/aboutus"} component={Aboutuspage}/>
-          <Route path={process.env.PUBLIC_URL + "/projects"} component={Projectspage}/>
-          <Route path={process.env.PUBLIC_URL + "/contact"} component={Contactpage}/>
+          <Route path="/" exact component={Homepage}/>
+          <Route path="/aboutus" component={Aboutuspage}/>
+          <Route path="/projects" component={Projectspage}/>
+          <Route path="/contact" component={Contactpage}/>
         </Switch>
         <Footer />
         </Router>
