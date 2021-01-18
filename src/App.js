@@ -14,9 +14,9 @@ function App() {
       <Navigation />
       <Switch>
       <Route path="/" exact component={Homepage}/>
-      <Route path="/aboutus/" exact component={Aboutuspage}/>
-      <Route path="/projects/" exact component={Projectspage}/>
-      <Route path="/contact/" exact component={Contactpage}/>
+      <Route path="/aboutus" exact component={Aboutuspage}/>
+      <Route path="/projects" exact component={Projectspage}/>
+      <Route path="/contact" exact component={Contactpage}/>
       </Switch>
       <Footer />
     </HashRouter>
