@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import { Link } from "react-router-dom";
 import {Nav, Navbar, NavItem, NavLink, NavbarBrand, Media} from "reactstrap";
 import Logo from "./images/logo.png";
 
@@ -13,13 +12,13 @@ class Navigation extends Component{
                     </NavbarBrand>
                     <Nav className="mr-auto" navbar pills>
                         <NavItem>
-                            <NavLink><Link to={process.env.PUBLIC_URL + "/"}>Home</Link></NavLink>
+                            <NavLink href={process.env.PUBLIC_URL + "/"}>Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink ><Link to={process.env.PUBLIC_URL + "/aboutus"}>About Us</Link></NavLink>
+                            <NavLink href={process.env.PUBLIC_URL + "/aboutus"}>About Us</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink ><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></NavLink>
+                            <NavLink href={process.env.PUBLIC_URL + "/contact"}>Contact</NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
