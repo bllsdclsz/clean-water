@@ -57,7 +57,7 @@ class Footer extends Component{
                     <Row className="offset-3 col-sm-9 footer mb-0 p-0">
                         <Col className="offset-1 col-sm-6">
                             <footer>
-                                <p>Copyright <i className="far fa-copyright"></i> 2021 Bilal. All rights reserved.</p>
+                                <p>Copyright <i className="far fa-copyright"></i> 2021 Bilal. All Rights Reserved. All Information Fake.</p>
                             </footer>
                         </Col>
                     </Row>
