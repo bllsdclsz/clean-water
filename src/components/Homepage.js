@@ -8,8 +8,9 @@ class Homepage extends Component{
     render() {
         return (
             <>
-              <div className="home-content-image d-flex justify-content-center">
-                <h1 className="text-white">eko-life</h1>
+              <div className="home-content-image d-flex flex-column justify-content-center align-items-center">
+                <h1 className="text-white content-text">Save Your Tomorrow</h1>
+                <h1 className="text-white content-text">Save Yourself</h1>
               </div>
                 <Container>
                   <Row className="mt-5 mb-5 col-8 offset-2">

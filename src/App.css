@@ -1,4 +1,4 @@
-.home-content-image{
+.home-content-image {
   width: 100vw;
   height: 100vh;
   max-width: 100%;
@@ -10,14 +10,18 @@
   filter: opacity(90%) drop-shadow(0 5rem 20rem gray);
 }
 
-.content-image{
+.content-image {
   width: 256px;
   height: 256px;
   filter: opacity(90%) drop-shadow(0 0 1rem rgb(128, 128, 128));
 }
 
-.app-logo{
+.app-logo {
   width: 84px;
   height: 84px;
   object-fit: cover;
+}
+
+.content-text {
+  font-size: 56px;
 }

@@ -18,9 +18,6 @@ class Navigation extends Component{
                             <NavLink href={process.env.PUBLIC_URL + "/aboutus"}>About Us</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href={process.env.PUBLIC_URL + "/projects"}>Projects</NavLink>
-                        </NavItem>
-                        <NavItem>
                             <NavLink href={process.env.PUBLIC_URL + "/contact"}>Contact</NavLink>
                         </NavItem>
                     </Nav>
