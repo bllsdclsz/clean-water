@@ -13,13 +13,13 @@ class Navigation extends Component{
                     </NavbarBrand>
                     <Nav className="mr-auto" navbar pills>
                         <NavItem>
-                            <NavLink><Link to="/">Home</Link></NavLink>
+                            <NavLink><Link to={process.env.PUBLIC_URL + "/"}>Home</Link></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink ><Link to="/aboutus">About Us</Link></NavLink>
+                            <NavLink ><Link to={process.env.PUBLIC_URL + "/aboutus"}>About Us</Link></NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink ><Link to="/contact">Contact</Link></NavLink>
+                            <NavLink ><Link to={process.env.PUBLIC_URL + "/contact"}>Contact</Link></NavLink>
                         </NavItem>
                     </Nav>
                 </Navbar>
