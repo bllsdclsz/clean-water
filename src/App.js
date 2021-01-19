@@ -9,7 +9,7 @@ import "./components/images/waterfall.jpg";
 
 function App() {
   return (
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Navigation />
           <Switch>
           <Route path="/" exact component={Homepage}/>
