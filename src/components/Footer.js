@@ -45,10 +45,10 @@ class Footer extends Component{
                             <h6>Links</h6>
                                 <small>
                                     <List className="list-unstyled">
-                                        <li>Clean Water</li>
-                                        <li>Projects</li>
-                                        <li>About Us</li>
-                                        <li>Contact</li>
+                                        <li><a className="text-light" href="#">Clean Water</a></li>
+                                        <li><a className="text-light" href="#">Projects</a></li>
+                                        <li><a className="text-light" href="#">About Us</a></li>
+                                        <li><a className="text-light" href="#">Contact</a></li>
                                     </List>
                                 </small>
                         </Col>

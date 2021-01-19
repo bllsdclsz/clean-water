@@ -7,13 +7,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-  filter: opacity(90%) drop-shadow(0 5rem 20rem gray);
+  filter: opacity(90%) drop-shadow(0 5rem 20rem rgb(63, 207, 6));
 }
 
 .content-image {
   width: 256px;
   height: 256px;
-  filter: opacity(90%) drop-shadow(0 0 1rem rgb(128, 128, 128));
+  filter: opacity(90%) drop-shadow(0 0 1rem rgb(6, 177, 207));
 }
 
 .app-logo {
@@ -29,4 +29,9 @@
 .aboutus-container {
   border: 1px;
   box-shadow:20px 20px 50px grey;
+}
+
+.first-letter {
+  font-size: 48px;
+  line-height: 70px;
 }
