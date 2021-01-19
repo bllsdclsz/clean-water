@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/eko-life/static/css/main.c82beb3c.chunk.css",
-    "main.js": "/eko-life/static/js/main.852c0021.chunk.js",
-    "main.js.map": "/eko-life/static/js/main.852c0021.chunk.js.map",
-    "runtime-main.js": "/eko-life/static/js/runtime-main.cd6f687f.js",
-    "runtime-main.js.map": "/eko-life/static/js/runtime-main.cd6f687f.js.map",
+    "main.css": "/eko-life/static/css/main.6f016195.chunk.css",
+    "main.js": "/eko-life/static/js/main.d323274b.chunk.js",
+    "main.js.map": "/eko-life/static/js/main.d323274b.chunk.js.map",
+    "runtime-main.js": "/eko-life/static/js/runtime-main.82f4004d.js",
+    "runtime-main.js.map": "/eko-life/static/js/runtime-main.82f4004d.js.map",
     "static/css/2.ae9f1eb3.chunk.css": "/eko-life/static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.aff463c5.chunk.js": "/eko-life/static/js/2.aff463c5.chunk.js",
-    "static/js/2.aff463c5.chunk.js.map": "/eko-life/static/js/2.aff463c5.chunk.js.map",
-    "static/js/3.e4c91826.chunk.js": "/eko-life/static/js/3.e4c91826.chunk.js",
-    "static/js/3.e4c91826.chunk.js.map": "/eko-life/static/js/3.e4c91826.chunk.js.map",
+    "static/js/2.472fd90c.chunk.js": "/eko-life/static/js/2.472fd90c.chunk.js",
+    "static/js/2.472fd90c.chunk.js.map": "/eko-life/static/js/2.472fd90c.chunk.js.map",
+    "static/js/3.02e1ad2a.chunk.js": "/eko-life/static/js/3.02e1ad2a.chunk.js",
+    "static/js/3.02e1ad2a.chunk.js.map": "/eko-life/static/js/3.02e1ad2a.chunk.js.map",
     "index.html": "/eko-life/index.html",
     "static/css/2.ae9f1eb3.chunk.css.map": "/eko-life/static/css/2.ae9f1eb3.chunk.css.map",
-    "static/css/main.c82beb3c.chunk.css.map": "/eko-life/static/css/main.c82beb3c.chunk.css.map",
-    "static/js/2.aff463c5.chunk.js.LICENSE.txt": "/eko-life/static/js/2.aff463c5.chunk.js.LICENSE.txt",
+    "static/css/main.6f016195.chunk.css.map": "/eko-life/static/css/main.6f016195.chunk.css.map",
+    "static/js/2.472fd90c.chunk.js.LICENSE.txt": "/eko-life/static/js/2.472fd90c.chunk.js.LICENSE.txt",
+    "static/media/desert.e828a66c.jpg": "/eko-life/static/media/desert.e828a66c.jpg",
     "static/media/glacier.fc6e9e52.jpg": "/eko-life/static/media/glacier.fc6e9e52.jpg",
     "static/media/river.5d0a6d6c.jpg": "/eko-life/static/media/river.5d0a6d6c.jpg",
     "static/media/App.css": "/eko-life/static/media/waterfall.2fc00548.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.cd6f687f.js",
+    "static/js/runtime-main.82f4004d.js",
     "static/css/2.ae9f1eb3.chunk.css",
-    "static/js/2.aff463c5.chunk.js",
-    "static/css/main.c82beb3c.chunk.css",
-    "static/js/main.852c0021.chunk.js"
+    "static/js/2.472fd90c.chunk.js",
+    "static/css/main.6f016195.chunk.css",
+    "static/js/main.d323274b.chunk.js"
   ]
 }
